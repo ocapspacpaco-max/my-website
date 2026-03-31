@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Layout</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+        }
+
+        /* Header */
+        .header {
+            padding: 15px;
+            text-align: center;
+            background: #1e293b;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* Content */
+        .container {
+            padding: 15px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        .button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background: #3b82f6;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        /* Bottom Navigation */
+        .nav {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background: #1e293b;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        /* Make spacing for nav */
+        .spacer {
+            height: 60px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">My Mobile App</div>
+
+    <div class="container">
+
+        <div class="card">
+            <h3>Welcome</h3>
+            <p>This layout is optimized for mobile phones.</p>
+            <button class="button">Click Me</button>
+        </div>
+
+        <div class="card">
+            <h3>Another Section</h3>
+            <p>You can add more content here.</p>
+            <button class="button">Learn More</button>
+        </div>
+
+    </div>
+
+    <div class="spacer"></div>
+
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">Search</a>
+        <a href="#">Profile</a>
+    </div>
+
+</body>
+</html>
